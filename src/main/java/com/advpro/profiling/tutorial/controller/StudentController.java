@@ -37,5 +37,6 @@ public class StudentController {
         String joinedStudentNames = studentService.joinStudentNames();
         return ResponseEntity.ok(joinedStudentNames);
     }
+    
 }
 
