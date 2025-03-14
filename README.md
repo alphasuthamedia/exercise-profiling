@@ -37,4 +37,4 @@ all-student-name ![image](https://github.com/user-attachments/assets/13c846d6-5b
 7. saya melihat bahwa pemrosesan datanya sangat buruk. banyak nested loop yang sangat tidak perlu. hal ini bisa diatasi dengan menggunakan join yang dapat diakses di realtional sql. bahkan dengan menggunakan join di relational sql performa yang berdampak sangat banyak, karena secara default join di realtional sql sudah menggunakan analisis heuristik, bahkan kita bisa melakukan heuristik yang lebih lanjut dibagian sqlnya. hal ini lebih ringan dibanding tidak melakukan heuristik sama sekali di sql dan melakukan nested loop.
 
 ## konklusi
-dilihat dari elapsed time yang ada (head to head) perbedaan performa sangat sangat sangat signifikan, bahkan lebih dari 76 % hingga lebih dari 90 % lebih efisien. serta hindari nested loop (n+1) query problem dan lakukan heuristic optmization (dibahas di basdat :) )
+dilihat dari elapsed time yang ada (head to head) perbedaan performa sangat sangat sangat signifikan, bahkan lebih dari 100 % lebih efisien. serta hindari nested loop (n+1) query problem dan lakukan heuristic optmization (dibahas di basdat :) )
